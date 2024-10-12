@@ -1,0 +1,17 @@
+import os
+import copy
+
+Import('build_project', 'base_project_f4')
+
+build_projects = {
+    "link": base_project_f4,
+}
+
+for project_name, project in build_projects.items():
+    flags = [
+        "-DLINK",
+    ]
+    if "ENABLE_SPI" in os.environ:
+        flags.append('-DENABLE_SPI')
+
+    build_project(project_name, project, flags)

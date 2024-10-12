@@ -1,0 +1,17 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "rsa.h": "c",
+        "stdbool.h": "c",
+        "__locale": "cpp",
+        "bitset": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "variant": "cpp",
+        "vector": "cpp",
+        "usb.h": "c",
+        "stm32f4_config.h": "c"
+    }
+}
