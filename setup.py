@@ -24,7 +24,7 @@ def find_version(*file_paths):
 setup(
   name='carlink',
   version=find_version("python", "__init__.py"),
-  url='https://github.com/deeeepc/link',
+  url='https://github.com/deeeepc/carlink',
   author='deep C',
   author_email='',
   packages=[
@@ -42,7 +42,7 @@ setup(
   ],
   ext_modules=[],
   description="Code powering the deep C link",
-  long_description='See https://github.com/deeeepc/link',
+  long_description='See https://github.com/deeeepc/carlink',
   classifiers=[
     'Development Status :: 2 - Pre-Alpha',
     "Natural Language :: English",
